@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">CoolPortfolio</string>
     <string name="menu_title">Discover\nCool Menu Below</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="chat">Chat</string>
 </resources>

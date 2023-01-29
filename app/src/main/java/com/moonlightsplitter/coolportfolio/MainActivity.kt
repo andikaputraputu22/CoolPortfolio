@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.moonlightsplitter.coolportfolio.activities.CommerceActivity
+import com.moonlightsplitter.coolportfolio.activities.commerce.CommerceActivity
 import com.moonlightsplitter.coolportfolio.adapter.MenuAdapter
 import com.moonlightsplitter.coolportfolio.databinding.ActivityMainBinding
 import com.moonlightsplitter.coolportfolio.models.MenuModel

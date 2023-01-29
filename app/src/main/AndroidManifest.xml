@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".activities.CommerceActivity"
+            android:name=".activities.commerce.CommerceActivity"
             android:exported="false"
             android:theme="@style/LightStatusBar">
             <meta-data
