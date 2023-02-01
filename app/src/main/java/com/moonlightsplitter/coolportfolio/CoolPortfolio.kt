@@ -2,6 +2,7 @@ package com.moonlightsplitter.coolportfolio
 
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
+import com.moonlightsplitter.coolportfolio.viewmodel.commerceHomeViewModelModule
 import com.moonlightsplitter.coolportfolio.viewmodel.mainViewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -17,7 +18,8 @@ class CoolPortfolio : Application() {
             androidLogger(Level.ERROR)
             androidContext(this@CoolPortfolio)
             modules(
-                mainViewModelModule
+                mainViewModelModule,
+                commerceHomeViewModelModule
             )
         }
     }
