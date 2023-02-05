@@ -1,7 +1,9 @@
 package com.moonlightsplitter.coolportfolio.utils
 
 import android.content.Context
+import android.graphics.drawable.Drawable
 import android.util.TypedValue
+import androidx.core.content.ContextCompat
 import kotlin.math.roundToInt
 
 object StaticController {
@@ -13,5 +15,9 @@ object StaticController {
             dp.toFloat(),
             r.displayMetrics
         ).roundToInt()
+    }
+
+    fun getImageResource(idImage: Int, context: Context): Drawable? {
+        return ContextCompat.getDrawable(context, idImage)
     }
 }

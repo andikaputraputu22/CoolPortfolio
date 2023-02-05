@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="@dimen/_8sdp"
+    android:padding="@dimen/_5sdp"
     android:background="@drawable/bg_product"
     android:orientation="vertical">
 
@@ -16,7 +16,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_150sdp"
+            android:layout_height="@dimen/_130sdp"
             app:cardCornerRadius="@dimen/_10sdp"
             app:cardElevation="0dp"
             app:cardPreventCornerOverlap="false"
@@ -39,10 +39,10 @@
         </androidx.cardview.widget.CardView>
 
         <RelativeLayout
-            android:layout_width="@dimen/_30sdp"
-            android:layout_height="@dimen/_30sdp"
-            android:layout_marginTop="@dimen/_8sdp"
-            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -56,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/transparent"
-                app:srcCompat="@drawable/ic_bookmark"
+                app:srcCompat="@drawable/ic_bookmark_product"
                 app:tint="@color/grey_90" />
 
         </RelativeLayout>
@@ -66,6 +66,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
         android:layout_marginTop="@dimen/_8sdp"
         android:orientation="horizontal"
         android:gravity="center_vertical">
@@ -82,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/grey_90"
-                android:textSize="@dimen/_14ssp"
+                android:textSize="@dimen/_12ssp"
                 android:fontFamily="@font/poppinsmedium"
                 tools:text="Crafted Coat" />
 
