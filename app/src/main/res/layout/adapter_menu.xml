@@ -2,6 +2,7 @@
 <com.google.android.material.card.MaterialCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -29,10 +30,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:fontFamily="@font/poppinsregular"
-                android:text="1"
-                android:textSize="@dimen/_14ssp"
-                android:textColor="@android:color/white" />
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@android:color/white"
+                tools:text="1" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -41,10 +42,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_8sdp"
-            android:fontFamily="@font/poppinsregular"
-            android:text="Sample menu 1"
+            android:fontFamily="@font/poppinsmedium"
             android:textColor="@color/grey_90"
-            android:textSize="@dimen/_14ssp" />
+            android:textSize="@dimen/_12ssp"
+            tools:text="Sample menu 1" />
 
     </LinearLayout>
 
