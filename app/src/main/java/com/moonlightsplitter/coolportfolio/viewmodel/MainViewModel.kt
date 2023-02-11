@@ -12,7 +12,8 @@ class MainViewModel : ViewModel() {
 
     val menus = listOf(
         MenuModel(1, "Clean E-Commerce"),
-        MenuModel(2, "Cool Welcome Page"),
-        MenuModel(3, "Coming Soon")
+        MenuModel(2, "Simple News"),
+        MenuModel(3, "Cool Welcome Page"),
+        MenuModel(4, "Coming Soon")
     )
 }
