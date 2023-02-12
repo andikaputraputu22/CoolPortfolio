@@ -8,4 +8,5 @@
     <string name="greeting">Hi,</string>
     <string name="my_name_profile">John Doe</string>
     <string name="search">Search</string>
+    <string name="news_exercise">Exercise</string>
 </resources>

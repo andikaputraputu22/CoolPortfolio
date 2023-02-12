@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate
 import com.moonlightsplitter.coolportfolio.viewmodel.commerceHomeViewModelModule
 import com.moonlightsplitter.coolportfolio.viewmodel.mainViewModelModule
+import com.moonlightsplitter.coolportfolio.viewmodel.newsHomeViewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -19,7 +20,8 @@ class CoolPortfolio : Application() {
             androidContext(this@CoolPortfolio)
             modules(
                 mainViewModelModule,
-                commerceHomeViewModelModule
+                commerceHomeViewModelModule,
+                newsHomeViewModelModule
             )
         }
     }
